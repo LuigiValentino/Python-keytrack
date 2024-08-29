@@ -7,7 +7,7 @@ import datetime
 class Keylogger:
     def __init__(self, root):
         self.root = root
-        self.root.title("Keylogger - Python key tracker")
+        self.root.title("KeyTracker - Python key tracker")
         self.root.geometry("500x300")  
         self.root.resizable(False, False)
         self.log = []
